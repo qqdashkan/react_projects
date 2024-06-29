@@ -4,6 +4,8 @@ import { Header } from './components/Header';
 import { Modal } from './components/Modal';
 import { Info } from './components/Info';
 import { Main } from './components/Main';
+import { Brands } from './components/Brands';
+import { Slider } from './components/Slider';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Header />
       <Main />
       <Info />
+      <Brands />
+      <Slider />
     </div>
   );
 }

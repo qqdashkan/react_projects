@@ -4,6 +4,8 @@ import { Button } from '../Button';
 import { Search } from '../Search';
 import { Autorisation } from '../Autorisation';
 
+import './style.css';
+
 export function Header() {
   return (
     <header className="app-header">
