@@ -3,6 +3,8 @@ import language from '../../media/language_icon.svg';
 
 import { Button } from '../Button';
 
+import './style.css';
+
 export function Autorisation() {
   return (
     <div className="autorisation">

@@ -1,9 +1,11 @@
 import illustration from '../../media/hero_image.png';
 
+import './style.css';
+
 export function Main() {
   return (
-    <main className="wrapper">
-      <div className="main-content">
+    <main className="main-content">
+      <div className="wrapper">
         <div className="info">
           <h1>Jump into learning for less</h1>
           <p>
@@ -17,7 +19,7 @@ export function Main() {
           className="hero-image"
           alt="illustration"
           width="50%"
-          height="100%"
+          height="50%"
         />
       </div>
     </main>

@@ -1,0 +1,24 @@
+.post {
+  margin: 50px 0;
+  max-width: 80%;
+  height: 250px;
+  padding: 25px;
+  text-align: start;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.post h3 {
+  height: 150px;
+  margin-bottom: 25px;
+}
+
+.post p {
+  height: 15%;
+  margin-bottom: 10px;
+}
+
+.post a {
+  text-align: end;
+  font-size: 20px;
+  text-decoration: none;
+}
