@@ -1,0 +1,27 @@
+label {
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+form {
+  font-size: 25px;
+}
+
+input {
+  font-size: 22px;
+  margin: 15px;
+  padding: 10px;
+}
+
+button {
+  margin: 10px 10px 0 0;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.message {
+  font-weight: 200;
+  color: red;
+  font-style: italic;
+}
