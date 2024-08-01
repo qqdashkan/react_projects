@@ -18,7 +18,7 @@
 .border-btn {
   font-family: Helvetica, sans-serif;
   padding: 10px;
-  height: 45px;
+  height: 25px;
   border: 1px solid #000;
   color: black;
   background-color: transparent;
@@ -27,12 +27,13 @@
   display: flex;
   align-items: center;
   text-wrap: nowrap;
+  text-decoration: none;
 }
 
 .filled-btn {
   font-family: Helvetica, sans-serif;
   padding: 10px;
-  height: 45px;
+  height: 25px;
   background-color: #000;
   color: white;
   cursor: pointer;
@@ -40,13 +41,5 @@
   display: flex;
   align-items: center;
   text-wrap: nowrap;
-}
-
-.registrationForm {
-  display: flex;
-  position: absolute;
-  top: 100px;
-  font-weight: 600;
-  background-color: blueviolet;
-  padding: 20px;
+  text-decoration: none;
 }

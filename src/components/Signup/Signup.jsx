@@ -1,8 +1,7 @@
+import { useState } from 'react';
 import './style.css';
 
-import { useState } from 'react';
-
-export function Login() {
+export function Signup() {
   const [fullName, setFullName] = useState('');
   const [password, setPassword] = useState('');
   const [email, setEmail] = useState('');
@@ -87,7 +86,7 @@ export function Login() {
       </label>
       <p className="message">{message}</p>
       <button type="submit" disabled={''}>
-        Sign in
+        Registration
       </button>
     </form>
   );

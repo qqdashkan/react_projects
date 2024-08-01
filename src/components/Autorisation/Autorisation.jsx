@@ -7,6 +7,7 @@ import { Button } from '../Button';
 import { Login } from '../Login';
 
 import './style.css';
+import { NavLink } from 'react-router-dom';
 
 export function Autorisation() {
   const [data, setData] = useState(false);
@@ -20,18 +21,15 @@ export function Autorisation() {
       <Button className="simple-btn">
         <img src={cart} alt="cart" />
       </Button>
-      <Button className="border-btn">Log In</Button>
-      <Button type="menu" className="filled-btn" onClick={setActiveModal}>
+      <NavLink className="border-btn" to="login">
+        Log In
+      </NavLink>
+      <NavLink className="filled-btn" to="registration">
         Sign Up
-      </Button>
-      <Button className="border-btn">
+      </NavLink>
+      <NavLink className="border-btn">
         <img src={language} alt="language" />
-      </Button>
-      {data && (
-        <menu className="registrationForm">
-          <Login />
-        </menu>
-      )}
+      </NavLink>
     </div>
   );
 }
