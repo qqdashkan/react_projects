@@ -57,7 +57,7 @@ export function Login() {
   }
 
   return (
-    <form className="registrationForm" onSubmit={handleFormSubmit}>
+    <form className="loginForm" onSubmit={handleFormSubmit}>
       <label>
         Full name:
         <input
