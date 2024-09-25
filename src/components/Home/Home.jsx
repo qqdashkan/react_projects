@@ -7,13 +7,13 @@ import { Slider } from '../Slider';
 
 export function Home() {
   return (
-    <div>
+    <>
       <Modal />
       <Header />
       <Main />
       <Info />
       <Brands />
       <Slider />
-    </div>
+    </>
   );
 }

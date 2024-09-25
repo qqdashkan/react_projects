@@ -4,7 +4,6 @@ import language from '../../media/language_icon.svg';
 import { useState } from 'react';
 
 import { Button } from '../Button';
-import { Login } from '../Login';
 
 import './style.css';
 import { NavLink } from 'react-router-dom';
