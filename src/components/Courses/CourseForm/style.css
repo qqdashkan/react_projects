@@ -1,0 +1,85 @@
+.course-body {
+  padding-bottom: 50px;
+  padding-top: 25px;
+  background: linear-gradient(
+    rgba(126, 174, 225, 0.6),
+    rgba(218, 193, 209, 0.6)
+  );
+}
+.myform {
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: 30%;
+  height: 600px;
+  margin: 50px auto;
+
+  /*stacking fieldsets above each other*/
+  position: relative;
+}
+
+.myform input,
+.myform textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 10px auto;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2c3e50;
+  font-size: 13px;
+}
+/*buttons*/
+.myform .action-button {
+  width: 100px;
+  background: #27ae60;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.fs-title {
+  font-weight: 400;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #2c3e50;
+}
+
+.fs-subtitle {
+  font-weight: normal;
+  font-size: 20px;
+  color: #666;
+}
+
+.info-area {
+  margin: 20px auto;
+}
+
+.action-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  margin: 0 auto;
+  background: #08c;
+  border: 1px solid rgba(126, 174, 225, 0);
+  border-radius: 10px;
+  /* Font styles */
+  color: white;
+  font-weight: 200;
+  text-decoration: none;
+  text-align: center;
+}
+
+.action-btn:hover {
+  cursor: pointer;
+  background: #0af;
+}

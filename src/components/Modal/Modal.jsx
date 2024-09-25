@@ -1,4 +1,4 @@
-import close from '../../media/close_icon.svg';
+import closeIcon from '../../media/close_icon.svg';
 
 import './style.css';
 
@@ -24,7 +24,7 @@ export function Modal() {
               localStorage.setItem('modal', false);
               setItem(false);
             }}
-            src={close}
+            src={closeIcon}
             className="close-icon"
             alt="close"
           />
