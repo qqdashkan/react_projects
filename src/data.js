@@ -1,0 +1,92 @@
+export const data = [
+  {
+    id: 1,
+    imgURL: "/php.svg",
+    label: "PHP",
+    matched: false,
+  },
+  {
+    id: 2,
+    imgURL: "/csharp.svg",
+    label: "Csharp",
+    matched: false,
+  },
+  {
+    id: 3,
+    imgURL: "/docker.svg",
+    label: "Docker",
+    matched: false,
+  },
+  {
+    id: 4,
+    imgURL: "/java.svg",
+    label: "Java",
+    matched: false,
+  },
+  {
+    id: 5,
+    imgURL: "/javascript.svg",
+    label: "Javascript",
+    matched: false,
+  },
+  {
+    id: 6,
+    imgURL: "/c++.svg",
+    label: "C++",
+    matched: false,
+  },
+  {
+    id: 7,
+    imgURL: "/nest.svg",
+    label: "Nest",
+    matched: false,
+  },
+  {
+    id: 8,
+    imgURL: "/python.svg",
+    label: "Python",
+    matched: false,
+  },
+  {
+    id: 9,
+    imgURL: "/mongodb.svg",
+    label: "Mongo",
+    matched: false,
+  },
+  {
+    id: 10,
+    imgURL: "/swift.svg",
+    label: "Swift",
+    matched: false,
+  },
+  {
+    id: 11,
+    imgURL: "/postman.svg",
+    label: "Postman",
+    matched: false,
+  },
+  {
+    id: 12,
+    imgURL: "/vite.svg",
+    label: "Vite",
+    matched: false,
+  },
+  {
+    id: 13,
+    imgURL: "/vue.svg",
+    label: "Vue",
+    matched: false,
+  },
+  {
+    id: 14,
+    imgURL: "/jira.svg",
+    label: "Jira",
+    matched: false,
+  },
+  {
+    id: 15,
+    imgURL: "/logo.svg",
+    label: "Logo",
+    matched: false,
+  },
+];
